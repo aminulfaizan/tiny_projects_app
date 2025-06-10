@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[7]:
-
-
 def calculate_isee(isr, isp, family_size):
     # isee = annual income + 20% of (bank and real estate) / equivalence scale 
     equivalence_scale = {1: 1.00, 2: 1.57, 3: 2.04, 4: 2.46, 5: 2.85}
@@ -25,8 +19,6 @@ assets_eur = bank_money_eur + real_state_eur
 estimated_isee = calculate_isee(income_eur, assets_eur, family_members)
 print(f"\nEstimated ISEE Parificato: €{estimated_isee}")
 
-
-# In[ ]:
 
 
 
